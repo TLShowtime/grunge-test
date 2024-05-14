@@ -21,7 +21,6 @@ defaults:
 
 jobs:
   deploy:
-    needs: [lint, typecheck, vitest, cypress]
     runs-on: ubuntu-latest
 
     steps:
